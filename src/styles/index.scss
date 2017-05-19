@@ -1,0 +1,15 @@
+$body-color: blue;
+
+body {
+  color: $body-color;
+}
+
+#mapid {
+    height: 1000px;
+}
+
+.mapPopup .leaflet-popup-content {
+    font-family: 'Verdana' !important;
+    font-size: 24px;
+    text-align: center !important;
+}

@@ -1,0 +1,23 @@
+$body-color: '#34383B';
+$body-background-color: '#DDDDDD';
+
+.container {
+  background-color: $body-background-color !important;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: $body-color !important;
+}
+
+#mapid {
+    height: 900px;
+}
+
+.mapPopup .leaflet-popup-content {
+    font-family: 'Verdana' !important;
+    font-size: 24px;
+    text-align: center !important;
+}
